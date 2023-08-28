@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto+Slab:wght@500;600;700&family=Roboto:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto Slab', serif;
+}
+/* Start Header Part */
+#header_part{ 
+    background: #e5e5e5;
+}
+#header_part .logo{
+    font-size: 40px;
+    letter-spacing: -2px;
+    line-height: 65px;
+    text-transform: uppercase;
+    color: #4e4e4e;
+    font-weight: 700;
+    font-family: "Roboto Condensed";
+}
+.navbar-nav li a{
+    font-size: 16px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #434343;
+    font-weight: 700;
+    font-family: "Roboto Condensed"; 
+    transition: color .3s;
+} 
+.navbar-nav li a:hover{
+    color:  #1abb9c;
+} 
+/* End Header Part */
+
+/* Start Slider Part */
+ #slider_part{
+    background: linear-gradient(#00000021,#00000013), url('../img/marbel-bg.webp') no-repeat center center / cover ; 
+    padding: 200px 0;
+ }
+ .slider_con h1{ 
+    font-size: 40px;
+    line-height: 2.3rem;
+    color: #f3f3f3;
+    font-weight: 700;
+    font-family: "Roboto Slab"; 
+ }
+ .slider_con h2{
+    font-size: 32px;
+    line-height: 35px;
+    color: #a8a8a8;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    text-align: center;
+    margin-top: 50px;
+ }
+ .slider_con button{
+    font-size: 14px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Roboto";
+    background: #3f8dbf;
+    padding: 10px 25px;
+    border: 1px solid #3f8dbf;
+    border-radius: 4px;
+    transition: .3s;
+    margin-top: 40px;
+ }
+ .slider_con button:hover{
+    background: transparent;
+    border-color: #fff;
+ }
+/* End Slider Part */
+
+/* Start Service Part */
+#service_part{
+    padding: 60px 0 0; 
+}
+.divider{
+    border-bottom: 1px solid #00000036;
+    padding-top: 60px;
+}
+.service_img{
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    line-height: 90px; 
+    border-radius: 50%;
+    margin: auto; 
+} 
+.box1{
+    background: #9d99bf;
+} 
+.box2{
+    background: #d1514b;
+} 
+.box3{
+    background: #66a3c5;
+} 
+.box4{
+    background: #e7bf4f;
+} 
+
+.service_con h3{
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 40px;
+    color: #4e4e4e;
+    font-weight: 700;
+    font-family: "Roboto Slab"; 
+}
+.service_con p{
+    font-size: 14px;
+    line-height: 1.5rem;
+    color: #616161; 
+}
+/* End Service Part */
+
+/* Start Lates Work Part */
+#work_part{
+    padding: 60px 0;
+}
+.work_heading h3{
+    font-size: 18px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #4e4e4e;
+    font-weight: 700;
+    font-family: "Roboto Condensed";
+}
+.work_con h3{
+    font-size: 18px;
+    line-height: 1.3rem;
+    color: #4e4e4e;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    margin-top: 20px
+}
+.work_con h5{
+    font-size: 13px;
+    line-height: 1.2rem;
+    color: #a8a8a8;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+}
+.work_con p{
+    font-size: 14px;
+    line-height: 28px;
+    color: #5c5c5c;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+/* End Lates Work Part */
+
+/* Start Testimonial Part */
+#testi_part{
+    padding: 60px 0;
+    background: #efefef;
+}
+.testi_con p{ 
+    margin: auto;
+    margin-top: 20px;
+    font-size: 22px;
+    line-height: 30px;
+    color: #a1a1a1;
+    font-weight: 600;
+    font-family: "Roboto Slab";
+    text-align: center;
+}
+/* End Testimonial Part */
+
+/* Start Footer Part */
+#footer_part{
+    background: #1f1f1f;
+    padding: 60px 0; 
+}  
+.footer_heading h4{
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #6c6c6c;
+    font-weight: 700;
+    font-family: "Roboto Condensed";
+}
+.footer_con p{
+    font-size: 16px; 
+    font-weight: 400;
+    color: #cacaca;
+    font-family: "Roboto"; 
+    margin-bottom: 0;  
+    margin-top: 15px;
+}
+.fastp{
+    margin-top: 0 !important;
+    line-height: 26px;
+}
+.footer_icon{
+    color: #74e2fd; 
+    margin-top: 16px;
+}  
+.line{
+    padding-top: 60px;
+    border-bottom: 1px solid #c2bcbcf1;
+}
+.copyright p{
+    font-size: 14px;
+    line-height: 22px;
+    color: #cacaca;
+    font-weight: 400;
+    font-family: "Roboto"; 
+    padding-top: 60px;
+}
+/* End Footer Part */
